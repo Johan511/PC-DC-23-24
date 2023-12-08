@@ -1,3 +1,5 @@
+set -e
+
 if [ "$(uname)" == "Darwin" ]; then
     PYTHON_ROOT=python3     
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
