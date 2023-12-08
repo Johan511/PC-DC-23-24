@@ -9,3 +9,5 @@ try:
         print(eval(inputStr))
 except EOFError:
     pass
+except ZeroDivisionError:
+    print("Division by zero")
